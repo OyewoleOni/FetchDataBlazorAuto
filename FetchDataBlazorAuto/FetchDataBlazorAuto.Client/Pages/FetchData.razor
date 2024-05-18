@@ -1,0 +1,24 @@
+﻿@page "/fetch-data"
+@using FetchDataBlazorAuto.Client.Services
+
+@inject ISomeDataService someDataService
+@rendermode InteractiveAuto
+
+<h3>FetchData</h3>
+
+<h2>Numbers from Data Service</h2>
+
+<ul>
+    @foreach (var item in _numbers)
+    {
+        <li>@item</li>
+    }
+</ul>
+
+@code {
+    private int[] _numbers = [];
+    protected override async Task OnInitializedAsync()
+    {
+        _numbers = await someDataService.GetNumbersAsync();
+    }
+}

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FetchDataBlazorAuto", "FetchDataBlazorAuto\FetchDataBlazorAuto\FetchDataBlazorAuto.csproj", "{44503968-23D4-4F74-A104-80DE8A033880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FetchDataBlazorAuto.Client", "FetchDataBlazorAuto\FetchDataBlazorAuto.Client\FetchDataBlazorAuto.Client.csproj", "{33AD057B-BBA1-4043-B599-E1A37C259880}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44503968-23D4-4F74-A104-80DE8A033880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44503968-23D4-4F74-A104-80DE8A033880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44503968-23D4-4F74-A104-80DE8A033880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44503968-23D4-4F74-A104-80DE8A033880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33AD057B-BBA1-4043-B599-E1A37C259880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33AD057B-BBA1-4043-B599-E1A37C259880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33AD057B-BBA1-4043-B599-E1A37C259880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33AD057B-BBA1-4043-B599-E1A37C259880}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {446CB0CC-C07C-4D13-8ABF-47227321819A}
+	EndGlobalSection
+EndGlobal
